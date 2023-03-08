@@ -1,4 +1,4 @@
-use std::{net::{TcpStream, TcpListener}, thread, io::{BufReader, BufRead, Write}, fs, str::FromStr, string::ParseError};
+use std::{net::{TcpStream, TcpListener}, io::{BufReader, BufRead, Write}, fs, str::FromStr, string::ParseError};
 
 use rust_web_socket::ThreadPool;
 
